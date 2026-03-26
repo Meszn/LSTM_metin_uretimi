@@ -305,4 +305,6 @@ print(generate_text("akşam yemeğinde",5))#başlangıç cümlesi "akşam yemeğ
 #bugün hava dünküne göre çok daha ılık
 #akşam yemeğinde taze fasulye ve yanına pilav
 
+
+
         
