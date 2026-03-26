@@ -9,23 +9,23 @@ Bu proje, **Long Short-Term Memory (LSTM)** algoritmalarını kullanarak, verile
 
 ---
 
-## 🚀 Projenin Amacı
+##  Projenin Amacı
 
 Model, bir dizi kelime öbeği alır ve bu dizideki örüntüleri öğrenerek, girilen rastgele bir metne uygun bir şekilde bir sonraki kelimeyi (veya kelimeleri) tahmin eder.
 
 **Örnek:**
-> **Girdi:** "ben yarin"
-> **Çıktı:** "ben yarin sonu için kendime gülümsedim çok"
+> **Girdi:** "bugün hava"
+> **Çıktı:** "bugün hava dünküne göre çok daha ılık"
 
 ---
 
-## 📊 Veri Seti (Dataset)
+## 📊 Veri Seti
 
-Projede, günlük hayatta kullanılan yapılar ve kelimeler üzerine odaklanmış **100 cümlelik Türkçe bir veri seti** (ChatGPT ile üretilmiştir) kullanılmaktadır. Bu kısıtlı ama çeşitli veri kümesi sayesinde model, cümle yapılarını ve kelime ardışıklığını (n-gram) öğrenmektedir.
+Projede, günlük hayatta kullanılan yapılar ve kelimeler üzerine odaklanmış **ortalama 200 cümlelik Türkçe bir veri seti** (ChatGPT ile üretilmiştir) kullanılmaktadır. Bu kısıtlı ama çeşitli veri kümesi sayesinde model, cümle yapılarını ve kelime ardışıklığını (n-gram) öğrenmektedir.
 
 ---
 
-## 🧬 LSTM (Uzun-Kısa Vadeli Hafıza) Nedir?
+##  LSTM (Uzun-Kısa Vadeli Hafıza) Nedir?
 
 **LSTM**, Geleneksel Tekrarlayan Sinir Ağlarının (RNN - Recurrent Neural Networks) karşılaştığı **"Kaybolan Gradyan" (Vanishing Gradient)** problemini çözmek amacıyla geliştirilmiş özel bir RNN mimarisidir. 
 
